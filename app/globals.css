@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+	@apply box-border;
+}
+
+@layer base {
+    body {
+        @apply text-base text-base-color md:text-lg font-manrope;
+    }
+    
+    /* Scroll Behavior */
+	::-webkit-scrollbar {
+		@apply w-1 h-1 rounded-xl;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		@apply bg-transparent rounded-xl;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		@apply bg-light-gray rounded-xl;
+	}
+	
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		@apply bg-opacity-80;
+	}
+}
