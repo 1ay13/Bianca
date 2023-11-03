@@ -25,6 +25,7 @@ module.exports = {
       },
       fontSize: {
         'xl-22': '22px',
+        'xl-26': '26px',
         'xl-28': '28px',
         'xl-40': '40px',
         'xl-42': '42px',
@@ -34,6 +35,8 @@ module.exports = {
       },
       boxShadow: {
         common: '5px 10px 30px rgba(0,0,0,0.25)',
+        'work-outline': '0 0 20px rgba(0,0,0,0.2)',
+        'work-outline-hover': '0 20px 40px rgba(0,0,0,0.2)',
       },
       fontFamily: {
         manrope: ['Manrope','sans-serif'],

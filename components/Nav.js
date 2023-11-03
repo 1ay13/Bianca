@@ -49,7 +49,7 @@ const Nav = () => {
           </Link>
           <Link
             href="/posts"
-            className={pathname == "/work" ? "text-active-nav" : ''}
+            className={pathname == "/posts" ? "text-active-nav" : ''}
             onClick={() => setToggleMenu(false)}
           >
             Work

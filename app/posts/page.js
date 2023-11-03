@@ -2,10 +2,11 @@
 
 import { useEffect, useState } from "react";
 import PostCard from "../../components/PostCard";
+import Image from "next/image";
 
 const Work = () => {
   // Define a state variable to store the fetched data
-  const [fetchedData, setFetchedData] = useState(null);
+  const [fetchedData, setFetchedData] = useState('');
 
   const fetchPost = async () => {
     const response = await fetch("/api/blog");
@@ -17,18 +18,29 @@ const Work = () => {
     fetchPost();
   }, []);
 
+  const imageLoader = ({ src }) => {
+    return `${src}`;
+  };
+
   return (
-    <section className="section">
-      <div className="container">
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-10">
-          {fetchedData &&
-            fetchedData.map((post) => (
-              <PostCard key={post.fields.slug} post={post} />
-            ))}
-          {/* {fetchedData && console.log(fetchedData)} */}
-        </ul>
-      </div>
-    </section>
+    <>
+      {fetchedData ?
+        <div className="flex flex-wrap justify-between">
+            {fetchedData.map((post) => (
+          <PostCard key={post.fields.slug} post={post} />
+          ))}
+        </div> :
+        <div className="h-[calc(100vh-250px)] flex justify-center items-center">
+           <Image
+            loader={imageLoader}
+            src="../../assets/loading.gif"
+            className='h-full max-h-[60px] w-fit'
+            width={1534}
+            height={865}
+            alt="Picture of the author"
+          />
+        </div>}
+    </>
   );
 };
 

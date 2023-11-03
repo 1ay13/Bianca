@@ -11,7 +11,7 @@ const Home = () => {
         <div className="w-full mb-7">
           <h1 className="mb-4 font-extrabold leading-none text-xl-40 md:leading-normal md:text-xl-42">Showreel</h1>
           <p className="mb-10 leading-6 md:mb-14 md:leading-8">Curated compilation of my best work, worked on more than 100 projects till now. Leading to the greater work in the next future</p>
-          <div className="mb-8 md:mb-12">
+          <div className="mb-8 md:mb-12 [&>iframe]aspect-video">
             <VideoIframe videoId="QD4XlsyHZl8" />
           </div>
           <div className="mb-7">
