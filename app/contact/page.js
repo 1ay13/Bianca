@@ -6,7 +6,6 @@ const contact = () => {
     return `${src}`;
   };
 
-
   return (
     <div className="pb-8 md:pb-10">
       <h1 className="font-extrabold leading-none mb-7 md:mb-10 text-xl-40 md:leading-normal md:text-xl-42">
@@ -15,7 +14,7 @@ const contact = () => {
       <div className="mb-12 md:mb-16 shadow-common">
         <Image
           loader={imageLoader}
-          src="assets/all-in-on.jpg"
+          src="assets/main.jpg"
           width={1534}
           height={865}
           alt="All in one Image"
@@ -31,8 +30,9 @@ const contact = () => {
         Development.
       </p>
       <p className="underline mb-7 md:mb-12 underline-offset-2">
-        <a href="">Download resume</a>
-        
+        <a target="_blank" href="assets/Resume.pdf">
+          Download resume
+        </a>
       </p>
       <p className="mb-8 leading-6 text-black md:leading-8 md:mb-12">
         You can also access my resume for more details. Please feel free to use

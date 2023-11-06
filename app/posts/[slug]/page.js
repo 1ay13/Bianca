@@ -61,6 +61,7 @@ const page = ({ params }) => {
             loader={imageLoader}
             src="../assets/loading.gif"
             className='h-full max-h-[60px] w-fit'
+            unoptimized={true}
             width={1534}
             height={865}
             alt="Picture of the author"

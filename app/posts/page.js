@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Work = () => {
   // Define a state variable to store the fetched data
-  const [fetchedData, setFetchedData] = useState('');
+  const [fetchedData, setFetchedData] = useState("");
 
   const fetchPost = async () => {
     const response = await fetch("/api/blog");
@@ -24,22 +24,25 @@ const Work = () => {
 
   return (
     <>
-      {fetchedData ?
+      {fetchedData ? (
         <div className="flex flex-wrap justify-between">
-            {fetchedData.map((post) => (
-          <PostCard key={post.fields.slug} post={post} />
+          {fetchedData.map((post) => (
+            <PostCard key={post.fields.slug} post={post} />
           ))}
-        </div> :
+        </div>
+      ) : (
         <div className="h-[calc(100vh-250px)] flex justify-center items-center">
-           <Image
+          <Image
             loader={imageLoader}
             src="../../assets/loading.gif"
-            className='h-full max-h-[60px] w-fit'
+            className="h-full max-h-[60px] w-fit"
+            unoptimized={true}
             width={1534}
             height={865}
             alt="Picture of the author"
           />
-        </div>}
+        </div>
+      )}
     </>
   );
 };
