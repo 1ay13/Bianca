@@ -14,6 +14,8 @@ const contact = () => {
       <div className="mb-12 md:mb-16 shadow-common">
         <Image
           loader={imageLoader}
+          unoptimized={true}
+          priority={false}
           src="assets/main.jpg"
           width={1534}
           height={865}

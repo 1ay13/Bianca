@@ -14,6 +14,8 @@ const about = () => {
       <div className="mb-12 md:mb-16 shadow-common">
         <Image
           loader={imageLoader}
+          unoptimized={true}
+          priority={false}
           src="assets/B book -4.jpg"
           width={1534}
           height={865}
@@ -51,7 +53,9 @@ const about = () => {
         impression.
       </p>
       <p className="underline mb-7 md:mb-12 underline-offset-2">
-        <a target="_blank" href="assets/Resume.pdf">Download resume</a>
+        <a target="_blank" href="assets/Resume.pdf">
+          Download resume
+        </a>
       </p>
       <p className="mb-12 leading-6 text-black md:leading-8">
         Thank you for joining me on this storytelling journey. Let's create,
