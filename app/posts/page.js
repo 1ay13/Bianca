@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import PostCard from "../../components/PostCard";
-import Image from "next/image";
+import Loading from "@/components/Loading";
 
 const Work = () => {
   // Define a state variable to store the fetched data
@@ -18,30 +18,16 @@ const Work = () => {
     fetchPost();
   }, []);
 
-  const imageLoader = ({ src }) => {
-    return `${src}`;
-  };
-
   return (
     <>
       {fetchedData ? (
-        <div className="flex flex-wrap justify-between">
+        <div className="flex flex-wrap -mx-2 md:-mx-5">
           {fetchedData.map((post) => (
             <PostCard key={post.fields.slug} post={post} />
           ))}
         </div>
       ) : (
-        <div className="h-[calc(100vh-250px)] flex justify-center items-center">
-          <Image
-            loader={imageLoader}
-            src="../../assets/loading.gif"
-            className="h-full max-h-[60px] w-fit"
-            unoptimized={true}
-            width={1534}
-            height={865}
-            alt="Picture of the author"
-          />
-        </div>
+        <Loading />
       )}
     </>
   );

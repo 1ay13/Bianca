@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import Loading from "@/components/Loading";
 
 const page = ({ params }) => {
   const { slug } = params;
@@ -56,17 +57,7 @@ const page = ({ params }) => {
           />
         </div> */}
         </> :
-        <div className="h-[calc(100vh-250px)] flex justify-center items-center">
-          <Image
-            loader={imageLoader}
-            src="../assets/loading.gif"
-            className='h-full max-h-[60px] w-fit'
-            unoptimized={true}
-            width={1534}
-            height={865}
-            alt="Picture of the author"
-          />
-        </div>}
+        <Loading />}
     </>
   );
 };
