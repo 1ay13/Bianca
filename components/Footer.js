@@ -1,6 +1,6 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
-import { FaImdb, FaVimeoV } from "react-icons/fa";
+import { FaImdb, FaLinkedin, FaVimeoV } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,6 +21,9 @@ const Footer = () => {
           </a>
           <a href="https://www.imdb.com/name/nm3779168/" target="_blank">
             <FaImdb size="1.5rem" />
+          </a>
+          <a href="https://www.linkedin.com/in/bianca-ramirez-b97796ab/" target="_blank">
+            <FaLinkedin size="1.5rem" />
           </a>
         </div>
       </div>

@@ -29,10 +29,17 @@ const page = ({ params }) => {
 
   return (
     <>
-      {fetchedData ?
+      {fetchedData ? (
         <>
-          <h1 className="mb-6 font-extrabold md:mb-10 text-xl-26 md:text-xl-28">{fetchedData.posts?.[0].fields.title}</h1>
-          {desc && <p className="mb-7 md:mb-9"><span className="block font-bold">Description:</span>{desc}</p>}
+          <h1 className="mb-6 font-extrabold md:mb-10 text-xl-26 md:text-xl-28">
+            {fetchedData.posts?.[0].fields.title}
+          </h1>
+          {desc && (
+            <p className="mb-7 md:mb-9">
+              <span className="block font-bold">Description:</span>
+              {desc}
+            </p>
+          )}
           <div className="mb-7 md:mb-9">
             <iframe
               src={fetchedData.posts?.[0].fields.video}
@@ -40,24 +47,15 @@ const page = ({ params }) => {
               className="w-full aspect-video"
             ></iframe>
           </div>
-          {fetchedData.posts?.[0].fields.images &&
-            <div >
+          {fetchedData.posts?.[0].fields.images && (
+            <div>
               <Image />
             </div>
-          }
-          {/* Multiple Image Div
-        <div className="flex flex-wrap -mx-1 mb-7">
-          <Image
-            loader={imageLoader}
-            src="../assets/all-in-one.jpg"
-            width={1534}
-            height={865}
-            alt="All in one Image"
-            className="object-cover md:w-[calc(33.3%-8px)] w-[calc(50%-8px)] h-full aspect-video m-1"
-          />
-        </div> */}
-        </> :
-        <Loading />}
+          )}
+        </>
+      ) : (
+        <Loading />
+      )}
     </>
   );
 };

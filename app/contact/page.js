@@ -42,24 +42,12 @@ const contact = () => {
         ventures or discuss any work-related matters.
       </p>
       <div className="flex mb-12 -mx-5 leading-7 text-black max-md:gap-7 max-md:flex-col">
-        <div className="w-full px-5 md:w-1/3">
+        {/* <div className="w-full px-5 md:w-1/3">
           <p>Email me at:</p>
           <strong className="underline underline-offset-2">
-            <a href="#">biancarami@gmail.com</a>
+            <a href="#">bs_ramirez@icloud.comm</a>
           </strong>
-        </div>
-        <div className="w-full px-5 md:w-1/3">
-          <p>LinkedIn:</p>
-          <strong className="underline underline-offset-2">
-            <a href="#">@biancarami</a>
-          </strong>
-        </div>
-        <div className="w-full px-5 md:w-1/3">
-          <p>Instagram:</p>
-          <strong className="underline underline-offset-2">
-            <a href="#">@biancarami</a>
-          </strong>
-        </div>
+        </div> */}
       </div>
     </div>
   );

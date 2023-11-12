@@ -25,45 +25,45 @@ const Nav = () => {
             />
           </div>
           <div>
-            <p className="text-xl font-extrabold text-right md:text-center md:text-3xl">
+            <p className="text-xl font-extrabold text-right md:text-left md:text-3xl">
               BIANCA RAMI
             </p>
             <p className="-mt-2.5 md:-mt-1.5 font-semibold text-right md:text-left">
-              Freelancer
+              Film Director • Writer • Author• Designer
             </p>
           </div>
         </div>
-        
+
         <div
           className={`${
             toggleMenu ? "max-md:translate-x-0" : "max-md:-translate-x-full"
           } max-md:fixed max-md:flex max-md:top-0 max-md:left-0 max-md:w-full max-md:bottom-0 max-md:bg-menu-bg max-md:flex-col max-md:text-white max-md:text-xl-22 max-md:pt-20 max-md:pl-10 max-md:pr-10 max-md::gap-6 max-md:font-bold hidden md:text-base md:font-medium md:flex gap-7 transition-transform ease-in-out duration-500`}
         >
-          <Link
+          {/* <Link
             end="true"
             href="/"
-            className={pathname == "/" ? "text-active-nav" : ''}
+            className={pathname == "/" ? "text-active-nav" : ""}
             onClick={() => setToggleMenu(false)}
           >
             ShowReel{" "}
-          </Link>
+          </Link> */}
           <Link
             href="/posts"
-            className={pathname == "/posts" ? "text-active-nav" : ''}
+            className={pathname == "/posts" ? "text-active-nav" : ""}
             onClick={() => setToggleMenu(false)}
           >
             Work
           </Link>
           <Link
             href="/about"
-            className={pathname == "/about" ? "text-active-nav" : ''}
+            className={pathname == "/about" ? "text-active-nav" : ""}
             onClick={() => setToggleMenu(false)}
           >
             About Me
           </Link>
           <Link
             href="/contact"
-            className={pathname == "/contact" ? "text-active-nav" : ''}
+            className={pathname == "/contact" ? "text-active-nav" : ""}
             onClick={() => setToggleMenu(false)}
           >
             Contact
