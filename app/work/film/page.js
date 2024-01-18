@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import PostCard from "../../components/PostCard";
+import PostCard from "@/components/PostCard";
 import Loading from "@/components/Loading";
 
 const Work = () => {

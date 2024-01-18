@@ -24,14 +24,16 @@ const Nav = () => {
               }}
             />
           </div>
-          <div>
-            <p className="text-xl font-extrabold text-right md:text-left md:text-3xl">
-              BIANCA RAMI
-            </p>
-            <p className="-mt-2.5 md:-mt-1.5 font-semibold text-right md:text-left">
-              Film Director • Writer • Author• Designer
-            </p>
-          </div>
+          <Link href="/">
+            <div>
+              <p className="text-xl font-extrabold text-right md:text-left md:text-3xl">
+                BIANCA RAMI
+              </p>
+              {/* <p className="-mt-2.5 md:-mt-1.5 font-semibold text-right md:text-left">
+                Film Director • Writer • Author• Designer
+              </p> */}
+            </div>
+          </Link>
         </div>
 
         <div
@@ -48,18 +50,18 @@ const Nav = () => {
             ShowReel{" "}
           </Link> */}
           <Link
-            href="/posts"
+            href="/work/film"
             className={pathname == "/posts" ? "text-active-nav" : ""}
             onClick={() => setToggleMenu(false)}
           >
-            Work
+            Film Director
           </Link>
           <Link
-            href="/about"
-            className={pathname == "/about" ? "text-active-nav" : ""}
+            href="/work/sports"
+            className={pathname == "/sports" ? "text-active-nav" : ""}
             onClick={() => setToggleMenu(false)}
           >
-            About Me
+            Athlete Representation
           </Link>
           <Link
             href="/contact"
