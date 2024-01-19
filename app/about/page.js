@@ -8,7 +8,7 @@ const about = () => {
 
   return (
     <div className="pb-8 md:pb-10">
-      <h1 className="font-extrabold leading-none mb-7 md:mb-10 text-xl-40 md:leading-normal md:text-xl-42">
+      <h1 className="font-extrabold leading-snug mb-7 md:mb-10 text-xl-28 max-md:text-center md:text-xl-40">
         About
       </h1>
       <div className="mb-12 md:mb-16 shadow-common">

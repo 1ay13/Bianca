@@ -26,7 +26,7 @@ const RootLayout = ({ children }) => (
       />
     </head>
     <body className="h-screen mx-auto">
-      <main className="flex flex-col h-full pt-[105px] md:pt-[140px]">
+      <main className="flex flex-col h-full pt-[90px] md:pt-[120px]">
         <Nav />
         <div className="w-full px-5 mx-auto max-w-custom-screen">
           {children}

@@ -82,12 +82,12 @@ const Home = () => {
               </p>
             </div> */}
 
-            <div className="container block text-lg font-bold px-5 py-0">
-              <h3 className="mt-6 text-black font-bristone">My Work</h3>
-              <div className="conntainer grid gap-x-2 my-5 grid-cols-3 bg-auto">
-                <Link href="/work/film">Film Director</Link>
-                <Link href="/work/sports">Athlete Representation</Link>
-                <Link href="/work/executive">Executive Assistant </Link>
+            <div className="text-lg font-bold">
+              <h3 className="mt-6 text-black font-bristone md:text-xl">My Work</h3>
+              <div className="flex justify-between my-5 -mx-2 max-md:flex-col max-md:gap-2 max-md:text-base">
+                <Link className="px-2" href="/work/film">Film Director</Link>
+                <Link className="px-2" href="/work/sports">Athlete Representation</Link>
+                <Link className="px-2" href="/work/executive">Executive Assistant </Link>
               </div>
             </div>
           </div>
