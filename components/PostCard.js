@@ -7,7 +7,7 @@ const PostCard = ({ post }) => {
 
   return (
     <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] transition-all ease-in-out duration-300 aspect-video mb-5 md:mb-10 lg:mb-12 shadow-work-outline translate-y-0 hover:-translate-y-0.5 hover:shadow-work-outline-hover">
-      <Link href={`/posts/${slug}`} aria-label={title}>
+      <Link href={`/work/film/${slug}`} aria-label={title}>
         {/* <h1>{title}</h1> */}
         {/* <p>{type}</p> */}
         {/* <iframe
