@@ -34,7 +34,7 @@ const Home = () => {
             {/* <h1 className="mb-4 font-extrabold leading-none text-xl-40 md:leading-normal md:text-xl-42">
               About Me
             </h1> */}
-            <div className="mb-12 md:mb-16 shadow-common">
+            <div className="mb-12 md:mb-16 shadow-common max-w-[650px]">
               <Image
                 loader={imageLoader}
                 unoptimized={true}
@@ -43,7 +43,7 @@ const Home = () => {
                 width={1055}
                 height={1135}
                 alt="Picture of the author"
-                className="object-cover max-h-[750px] object-top"
+                className="object-cover max-h-[550px] object-top"
               />
             </div>
             <p className="leading-6 text-black md:leading-8 mb-7">
