@@ -40,10 +40,10 @@ const Home = () => {
                 unoptimized={true}
                 priority={false}
                 src="assets/main.jpeg"
-                width={1534}
-                height={865}
+                width={1055}
+                height={1135}
                 alt="Picture of the author"
-                className="object-fit aspect-[4/3]"
+                className="object-cover max-h-[750px] object-top"
               />
             </div>
             <p className="leading-6 text-black md:leading-8 mb-7">
