@@ -16,9 +16,6 @@ const Footer = () => {
           <a href="https://www.youtube.com/@BiancaRami" target="_blank">
             <AiFillYoutube size="1.5rem" />
           </a>
-          <a href="https://vimeo.com/" target="_blank">
-            <FaVimeoV size="1.5rem" />
-          </a>
           <a href="https://www.imdb.com/name/nm3779168/" target="_blank">
             <FaImdb size="1.5rem" />
           </a>

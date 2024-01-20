@@ -24,7 +24,9 @@ const page = () => {
             alt="Athlete Representation & Branding"
             className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
           />
-          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">Boston Red Sox Hall of Famer David Ortiz</h5>
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Boston Red Sox Hall of Famer David Ortiz
+          </h5>
         </div>
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
@@ -37,7 +39,69 @@ const page = () => {
             alt="Athlete Representation & Branding"
             className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
           />
-          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">Tina Knowles</h5>
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Tina Knowles
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/8.heic"
+            width={855}
+            height={641}
+            alt="Athlete Representation & Branding"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Lara Sail
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/6.heic"
+            width={855}
+            height={641}
+            alt="Athlete Representation & Branding"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Isabela Grutman
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/7.heic"
+            width={855}
+            height={641}
+            alt="Athlete Representation & Branding"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Marisol Nichols
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/harken.heic"
+            width={855}
+            height={641}
+            alt="Athlete Representation & Branding"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Harken Derm
+          </h5>
         </div>
       </div>
     </div>

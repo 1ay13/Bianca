@@ -34,7 +34,7 @@ const Home = () => {
             {/* <h1 className="mb-4 font-extrabold leading-none text-xl-40 md:leading-normal md:text-xl-42">
               About Me
             </h1> */}
-            <div className="mb-12 md:mb-16 shadow-common max-w-[650px]">
+            <div className="mb-12 md:mb-16 shadow-common ">
               <Image
                 loader={imageLoader}
                 unoptimized={true}
@@ -43,12 +43,11 @@ const Home = () => {
                 width={1055}
                 height={1135}
                 alt="Picture of the author"
-                className="object-cover max-h-[550px] object-top"
+                className="object-cover aspect-[4/3]"
               />
             </div>
             <p className="leading-6 text-black md:leading-8 mb-7">
-              Hola I'm Bianca Ramirez! A passionate storyteller, focusing on
-              film directing, visual branding & athlete representation.
+              Hola! I'm Bianca Ramirez!
             </p>
             <p className="leading-6 text-black md:leading-8 mb-7">
               My journey in the world of visual storytelling began with a deep
@@ -56,9 +55,19 @@ const Home = () => {
               experiences. I believe stories have the power to inspire, connect
               and transform, and I'm dedicated to bringing them to life through
               the lens of my camera. When I am representing a brand or an
-              athlete, I am crafting negotiations, endorsement and advertisement
+              athlete, I am crafting negotiations, endorsement advertisement
               deals, public appearances & new opportunities for their brand
-              growth of their financial investments.
+              growth & their net worth. Thank you for joining me on this
+              storytelling journey. Let's create, connect, and make magic.
+            </p>
+            <p className="leading-6 text-black md:leading-8 mb-7">
+              I'm consistently brimming with excitement when it comes to
+              engaging with fellow industry experts. Whether it's diving into
+              conversations about fresh projects, exploring the nuances of
+              visual direction, cinematography, branding or I'm always eager to
+              connect with new faces. Don't hesitate to reach out if you're
+              interested in my services, including SDR Color Grading, TV
+              development & Show LUT Development.
             </p>
             <p className="mb-12 leading-6 text-black md:leading-8">
               Thank you for joining me on this storytelling journey. Let's
@@ -83,11 +92,19 @@ const Home = () => {
             </div> */}
 
             <div className="text-lg font-bold">
-              <h3 className="mt-6 text-black font-bristone md:text-xl">My Work</h3>
+              <h3 className="mt-6 text-black font-bristone md:text-xl">
+                My Work
+              </h3>
               <div className="flex justify-between my-5 -mx-2 max-md:flex-col max-md:gap-2 max-md:text-base">
-                <Link className="px-2" href="/work/film">Film Director</Link>
-                <Link className="px-2" href="/work/sports">Athlete Representation</Link>
-                <Link className="px-2" href="/work/executive">Executive Assistant </Link>
+                <Link className="px-2" href="/work/film">
+                  Film Director
+                </Link>
+                <Link className="px-2" href="/work/sports">
+                  Athlete Representation
+                </Link>
+                <Link className="px-2" href="/work/executive">
+                  Executive Assistant{" "}
+                </Link>
               </div>
             </div>
           </div>
