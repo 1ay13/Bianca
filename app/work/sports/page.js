@@ -12,22 +12,30 @@ const page = () => {
       <h1 className="font-extrabold leading-snug mb-7 md:mb-10 text-xl-28 max-md:text-center md:text-xl-40">
         Representation & Branding
       </h1>
-      <div className="flex flex-wrap -mx-2 md:-mx-5">
+      <div>
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
             loader={imageLoader}
             unoptimized={true}
             priority={false}
-            src="/assets/8.heic"
+            src="/assets/Lara.jpg"
             width={855}
             height={641}
             alt="Athlete Representation & Branding"
             className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
           />
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-            Lara Dallman-Weiss American Sailor & Olympian
+            LARA DALLMAN-WEISS
+          </h5>
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            American Sailor & Olympian
           </h5>
         </div>
+      </div>
+      <h1 className="font-bold leading-snug mb-7 md:mb-10 text-xl-20 max-md:text-center md:text-xl-30  border-black border-b-2 text-gray-700 pb-2">
+        Previous Clients
+      </h1>
+      <div className="flex flex-wrap -mx-2 md:-mx-5">
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
             loader={imageLoader}
@@ -40,7 +48,10 @@ const page = () => {
             className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
           />
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-            Tina Knowles
+            TINA KNOWLES
+          </h5>
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            American Business Pioneer & Mother to Beyoncé & Solange
           </h5>
         </div>
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
@@ -55,7 +66,90 @@ const page = () => {
             className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
           />
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-            Boston Red Sox Hall of Famer David Ortiz
+            DAVID ORTIZ
+          </h5>
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Dominican Baseball Hall of Famer & Sports Analyst
+          </h5>
+        </div>
+
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/darmorer.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Dominique Darmorer
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/7.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Marisol Nichols
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/isabele.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Isabela Grutman
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/victoria.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Victoria Brito
+          </h5>
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Model. Dancer. Creative
+          </h5>
+        </div>
+
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/richard.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Richard Rojas
           </h5>
         </div>
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
@@ -78,7 +172,7 @@ const page = () => {
             loader={imageLoader}
             unoptimized={true}
             priority={false}
-            src="/assets/harken.heic"
+            src="/assets/harken.jpg"
             width={855}
             height={641}
             alt="Athlete Representation & Branding"
@@ -93,7 +187,7 @@ const page = () => {
             loader={imageLoader}
             unoptimized={true}
             priority={false}
-            src="/assets/Clerksy.heic"
+            src="/assets/Clerksy.jpg"
             width={855}
             height={641}
             alt="Clerksy"
@@ -108,7 +202,7 @@ const page = () => {
             loader={imageLoader}
             unoptimized={true}
             priority={false}
-            src="/assets/IMG_2639.HEIC"
+            src="/assets/skep360.jpg"
             width={855}
             height={641}
             alt="Clerksy"
@@ -138,7 +232,7 @@ const page = () => {
             loader={imageLoader}
             unoptimized={true}
             priority={false}
-            src="/assets/IMG_2635.HEIC"
+            src="/assets/hurlon.jpg"
             width={855}
             height={641}
             alt="Clerksy"
@@ -169,7 +263,7 @@ const page = () => {
             loader={imageLoader}
             unoptimized={true}
             priority={false}
-            src="/assets/IMG_2654.HEIC"
+            src="/assets/GFL.jpg"
             width={855}
             height={641}
             alt="Clerksy"
@@ -214,7 +308,7 @@ const page = () => {
             loader={imageLoader}
             unoptimized={true}
             priority={false}
-            src="/assets/grown.heic"
+            src="/assets/grown.jpg"
             width={855}
             height={641}
             alt="Clerksy"
@@ -237,6 +331,37 @@ const page = () => {
           />
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             Yash Mistry
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/allen34.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Ray Allen
+          </h5>
+        </div>
+
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/tiy.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            TIY
           </h5>
         </div>
       </div>

@@ -18,7 +18,7 @@ const PostCard = ({ post }) => {
           <ContentfulImage
             alt={`Cover Image for ${title}`}
             src={mainImage.fields.file.url}
-            className='object-cover w-full h-full aspect-video'
+            className="object-cover w-full h-full aspect-video"
             width={mainImage.fields.file.details.image.width}
             height={mainImage.fields.file.details.image.height}
           />

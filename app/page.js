@@ -35,7 +35,7 @@ const Home = () => {
                 loader={imageLoader}
                 unoptimized={true}
                 priority={false}
-                src="assets/IMG_2544 copy.heic"
+                src="assets/main.jpg"
                 width={1055}
                 height={1135}
                 alt="Picture of the author"
@@ -80,7 +80,7 @@ const Home = () => {
               </a>
             </div> */}
 
-            <div className="text-lg font-bold">
+            {/* <div className="text-lg font-bold">
               <h3 className="mt-12 text-black font-bristone md:text-3xl">
                 My Work
               </h3>
@@ -95,7 +95,7 @@ const Home = () => {
                   Executive Assistant
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
