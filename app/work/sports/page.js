@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div className="pb-8 md:pb-10">
       <h1 className="font-extrabold leading-snug mb-7 md:mb-10 text-xl-28 max-md:text-center md:text-xl-40">
-        Athlete Representation & Branding
+        Representation & Branding
       </h1>
       <div className="flex flex-wrap -mx-2 md:-mx-5">
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
@@ -55,10 +55,10 @@ const page = () => {
             className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
           />
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-            Lara Sail
+          Lara Dallman-Weiss American Sailor & Olympian
           </h5>
         </div>
-        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+        {/* <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
             loader={imageLoader}
             unoptimized={true}
@@ -72,8 +72,8 @@ const page = () => {
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             Isabela Grutman
           </h5>
-        </div>
-        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+        </div> */}
+        {/* <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
             loader={imageLoader}
             unoptimized={true}
@@ -87,7 +87,7 @@ const page = () => {
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             Marisol Nichols
           </h5>
-        </div>
+        </div> */}
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
             loader={imageLoader}

@@ -62,12 +62,11 @@ const Home = () => {
             </p>
             <p className="leading-6 text-black md:leading-8 mb-7">
               I'm consistently brimming with excitement when it comes to
-              engaging with fellow industry experts. Whether it's diving into
-              conversations about fresh projects, exploring the nuances of
-              visual direction, cinematography, branding or I'm always eager to
-              connect with new faces. Don't hesitate to reach out if you're
-              interested in my services, including SDR Color Grading, TV
-              development & Show LUT Development.
+              engaging with fellow industry experts. Exploring the nuances of
+              grading and cinematography, I'm always eager to connect with new
+              faces. Don't hesitate to reach out if you're interested in my
+              services, including SDR Color Grading, film directing,
+              screenwriting, branding or social marketing.
             </p>
             <p className="mb-12 leading-6 text-black md:leading-8">
               Thank you for joining me on this storytelling journey. Let's
