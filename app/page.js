@@ -1,11 +1,7 @@
 "use client";
 
-import VideoIframe from "@/components/YouTube";
 import React from "react";
-import YouTube from "react-youtube";
 import { useEffect, useState } from "react";
-import PostCard from "@/components/PostCard";
-import Loading from "@/components/Loading";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -39,40 +35,35 @@ const Home = () => {
                 loader={imageLoader}
                 unoptimized={true}
                 priority={false}
-                src="assets/main.jpeg"
+                src="assets/IMG_2544 copy.heic"
                 width={1055}
                 height={1135}
                 alt="Picture of the author"
-                className="object-cover aspect-[4/3]"
+                className="object-cover aspect-video"
               />
             </div>
-            <p className="leading-6 text-black md:leading-8 mb-7">
-              Hola! I'm Bianca Ramirez!
+
+            <p className="mb-4 font-extrabold leading-none text-xl-40 md:leading-normal md:text-xl-38">
+              Our Story
             </p>
             <p className="leading-6 text-black md:leading-8 mb-7">
-              My journey in the world of visual storytelling began with a deep
-              love for crafting narratives that resonate with the human
-              experiences. I believe stories have the power to inspire, connect
-              and transform, and I'm dedicated to bringing them to life through
-              the lens of my camera. When I am representing a brand or an
-              athlete, I am crafting negotiations, endorsement advertisement
-              deals, public appearances & new opportunities for their brand
-              growth & their net worth. Thank you for joining me on this
-              storytelling journey. Let's create, connect, and make magic.
+              BEYOND PRODUCTIONS founded by BIANCA RAMI, director,
+              cinematographer, and writer leads a premier film & branding
+              production company. We focus on creating compelling narratives,
+              speacializing in branded content, documentaries, commercials, &
+              social marketing. Our passion for storytelling is emboldened by
+              heart found across Hollywood & beyond!
             </p>
             <p className="leading-6 text-black md:leading-8 mb-7">
-              I'm consistently brimming with excitement when it comes to
-              engaging with fellow industry experts. Exploring the nuances of
-              grading and cinematography, I'm always eager to connect with new
-              faces. Don't hesitate to reach out if you're interested in my
-              services, including SDR Color Grading, film directing,
-              screenwriting, branding or social marketing.
+              Our expertise extends to representing brands, crafting
+              negotiations, social marketing and fostering new opportunities for
+              brand growth & net-worth.
             </p>
-            <p className="mb-8 leading-6 text-black md:leading-8">
+            {/* <p className="mb-8 leading-6 text-black md:leading-8">
               Thank you for joining me on this storytelling journey. Let's
               create, connect, and make magic together.
-            </p>
-            <div className="mb-3">
+            </p> */}
+            {/* <div className="mb-3">
               <a
                 href="/assets/B.Ramirez 1_24 .pdf"
                 className="font-bold underline"
@@ -87,7 +78,7 @@ const Home = () => {
               >
                 Download resume <span>(Creative Director)</span>
               </a>
-            </div>
+            </div> */}
 
             <div className="text-lg font-bold">
               <h3 className="mt-12 text-black font-bristone md:text-3xl">

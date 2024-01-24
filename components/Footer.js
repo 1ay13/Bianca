@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="sticky -bottom-[1px] block w-full py-4 mt-auto text-white bg-black md:flex">
       <div className="flex flex-wrap items-center justify-between w-full gap-2 px-5 mx-auto max-w-custom-screen">
         <p className="w-full text-center sm:w-auto">
-          <a href="#">hi@biancarami.com</a>
+          <a href="#">bynd@biancarami.com</a>
         </p>
         <div className="flex items-center justify-center w-full gap-3 sm:w-auto">
           <a href="https://www.instagram.com/biancavidale/ " target="_blank">
