@@ -72,7 +72,7 @@ const contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="grid gap-8 grid-cols-1"
+          className="grid p-12 gap-8 grid-cols-1 border-gray-200 border-2"
         >
           <input
             type="text"
