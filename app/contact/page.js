@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -63,9 +62,7 @@ const contact = () => {
       </h1>
       <div className="mb-12 md:mb-20">
         <p className="text-center">
-          Please feel free to get in touch anytime, whether for work inquiries
-          or to just say hi. I am currently accepting new freelance projects,
-          and willing to hear interesting proposals.
+        Contact me for business inquiries, freelance projects & branding proposals. 
         </p>
       </div>
       <div className="">

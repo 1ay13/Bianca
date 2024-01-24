@@ -68,30 +68,29 @@ const Home = () => {
               services, including SDR Color Grading, film directing,
               screenwriting, branding or social marketing.
             </p>
-            <p className="mb-12 leading-6 text-black md:leading-8">
+            <p className="mb-8 leading-6 text-black md:leading-8">
               Thank you for joining me on this storytelling journey. Let's
               create, connect, and make magic together.
             </p>
-            {/* <p className="mb-10 leading-6 md:mb-14 md:leading-8">
-              Curated compilation of my best work, worked on more than 100
-              projects till now. Leading to the greater work in the next future
-            </p>
-            <div className="border-b-[1.6px] border-solid border-dark-grey">
-              <div className="mb-8 md:mb-12 [&>iframe]aspect-video ">
-                <VideoIframe videoId="QD4XlsyHZl8" />
-              </div>
+            <div className="mb-3">
+              <a
+                href="/assets/B.Ramirez 1_24 .pdf"
+                className="font-bold underline"
+              >
+                Download resume <span>(General)</span>
+              </a>
             </div>
-            <div className="mb-7">
-              <h2 className="font-bold leading-relaxed text-xl-28">
-                My Clients
-              </h2>
-              <p className="leading-6 md:leading-8">
-                Google, Amazon, Facebook, etc...
-              </p>
-            </div> */}
+            <div className="mb-3">
+              <a
+                href="/assets/Classic Resume.pdf"
+                className="font-bold underline"
+              >
+                Download resume <span>(Creative Director)</span>
+              </a>
+            </div>
 
             <div className="text-lg font-bold">
-              <h3 className="mt-6 text-black font-bristone md:text-xl">
+              <h3 className="mt-12 text-black font-bristone md:text-3xl">
                 My Work
               </h3>
               <div className="flex justify-between my-5 -mx-2 max-md:flex-col max-md:gap-2 max-md:text-base">
@@ -99,25 +98,16 @@ const Home = () => {
                   Film Director
                 </Link>
                 <Link className="px-2" href="/work/sports">
-                  Athlete Representation
+                  Representation & Branding
                 </Link>
                 <Link className="px-2" href="/work/executive">
-                  Executive Assistant{" "}
+                  Executive Assistant
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* {fetchedData ? (
-        <div className="flex flex-wrap -mx-2 md:-mx-5">
-          {fetchedData.map((post) => (
-            <PostCard key={post.fields.slug} post={post} />
-          ))}
-        </div>
-      ) : (
-        <Loading />
-      )} */}
     </>
   );
 };

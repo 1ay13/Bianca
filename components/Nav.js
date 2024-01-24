@@ -61,7 +61,7 @@ const Nav = () => {
             className={pathname == "/sports" ? "text-active-nav" : ""}
             onClick={() => setToggleMenu(false)}
           >
-            Athlete  Representation
+            Representation & Branding
           </Link>
           <Link
             href="/contact"
