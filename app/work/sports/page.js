@@ -157,6 +157,21 @@ const page = () => {
             loader={imageLoader}
             unoptimized={true}
             priority={false}
+            src="/assets/faruk.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Farruko
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
             src="/assets/battery3.jpg"
             width={855}
             height={641}

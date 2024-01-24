@@ -44,7 +44,7 @@ const Home = () => {
             </div>
 
             <p className="mb-4 font-extrabold leading-none text-xl-40 md:leading-normal md:text-xl-38">
-              Our Story
+              BEYOND PRODUCTIONS
             </p>
             <p className="leading-6 text-black md:leading-8 mb-7">
               BEYOND PRODUCTIONS founded by BIANCA RAMI, director,
