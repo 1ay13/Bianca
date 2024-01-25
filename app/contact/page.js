@@ -97,7 +97,7 @@ const contact = () => {
             className="block pb-3 text-sm border-b border-black md:text-base md:pb-4"
             placeholder="Message"
           />
-          <input type="submit" value="Send" className="cursor-pointer p-1 text-base font-bold tracking-wide uppercase border border-solid md:w-[200px] mx-auto"/>
+          <input type="submit" value="Send" className="cursor-pointer p-1 text-base font-bold tracking-wide uppercase border border-solid w-full md:w-[200px] mx-auto"/>
         </form>
         <p className="mt-6">{result}</p>
       </div>
