@@ -59,27 +59,27 @@ const contact = () => {
 
   return (
     <div className="pb-8 md:pb-10">
-      <h1 className="font-extrabold leading-snug mb-7 md:mb-10 text-xl-28 max-md:text-center md:text-xl-40">
+      <h1 className="mb-4 font-extrabold leading-snug text-xl-28 max-md:text-center md:text-xl-40">
         Let's Connect
       </h1>
-      <div className="mb-12 md:mb-20">
-        <p className="text-center">
+      <div className="mb-12">
+        <p className="max-md:text-center">
           Contact me for business inquiries, freelance projects & branding
           proposals.
         </p>
       </div>
-      <div className="">
+      <div className="mb-10">
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="grid p-12 gap-8 grid-cols-1 border-gray-200 border-2"
+          className="grid grid-cols-1 border-2 border-gray-200 p-7 md:p-10 gap-7 rounded-xl"
         >
           <input
             type="text"
             name="user_name"
             value={formData.user_name}
             onChange={handleInputChange}
-            className="block border-black border-b-2 pb-5"
+            className="block pb-3 text-sm border-b border-black md:text-base md:pb-4"
             placeholder="Enter Your Name"
           />
           <input
@@ -87,17 +87,17 @@ const contact = () => {
             name="user_email"
             value={formData.user_email}
             onChange={handleInputChange}
-            className="block border-black border-b-2 pb-5"
+            className="block pb-3 text-sm border-b border-black md:text-base md:pb-4"
             placeholder="Enter Your Email Address"
           />
           <textarea
             name="message"
             value={formData.message}
             onChange={handleInputChange}
-            className="block border-black border-b-2 pb-5"
+            className="block pb-3 text-sm border-b border-black md:text-base md:pb-4"
             placeholder="Message"
           />
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send" className="cursor-pointer p-1 text-base font-bold tracking-wide uppercase border border-solid md:w-[200px] mx-auto"/>
         </form>
         <p className="mt-6">{result}</p>
       </div>
@@ -110,43 +110,40 @@ const contact = () => {
         <Link
           href="https://www.amazon.com/Beyond-Words-Memoir-Bianca-Ramirez/dp/1481753630?nodl=1&dplnkId=65bca13e-249b-4b58-a910-4783e9bbe53c"
           passHref={true}
+          className="flex flex-col justify-between"
         >
-          <div>
-            <div className="object-cover ">
-              <Image
-                loader={imageLoader}
-                unoptimized={true}
-                priority={false}
-                src="assets/book_cover.jpg"
-                width={360}
-                height={900}
-                alt="Picture of the author"
-                className="object-fill "
-              />
-            </div>
-            <h3 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-              B BEYOND WORDS
-            </h3>
+          <div className="h-full">
+            <Image
+              loader={imageLoader}
+              unoptimized={true}
+              priority={false}
+              src="assets/book_cover.jpg"
+              width={360}
+              height={900}
+              alt="Picture of the author"
+              className="object-cover h-full"
+            />
           </div>
+          <h3 className="mt-2 text-sm font-semibold leading-normal text-center md:text-base">
+            B BEYOND WORDS
+          </h3>
         </Link>
-        <Link href="https://www.femketewari.com/book" passHref={true}>
-          <div>
-            <div className="object-cover ">
-              <Image
-                loader={imageLoader}
-                unoptimized={true}
-                priority={false}
-                src="assets/Miami_book.jpg"
-                width={360}
-                height={900}
-                alt="Picture of the author"
-                className="object-fill w-full max-w-[360px] h-full"
-              />
-            </div>
-            <h3 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-              MIAMI WOMEN
-            </h3>
+        <Link href="https://www.femketewari.com/book" passHref={true} className="flex flex-col justify-between">
+          <div className="h-full">
+            <Image
+              loader={imageLoader}
+              unoptimized={true}
+              priority={false}
+              src="assets/Miami_book.jpg"
+              width={360}
+              height={900}
+              alt="Picture of the author"
+              className="object-cover h-full"
+            />
           </div>
+          <h3 className="mt-2 text-sm font-semibold leading-normal text-center md:text-base">
+            MIAMI WOMEN
+          </h3>
         </Link>
       </div>
     </div>

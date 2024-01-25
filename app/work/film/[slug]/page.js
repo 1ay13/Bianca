@@ -31,7 +31,7 @@ const page = ({ params }) => {
     <>
       {fetchedData ? (
         <>
-          <h1 className="mb-6 font-extrabold md:mb-10 text-xl-26 md:text-xl-28">
+          <h1 className="mb-4 text-2xl font-extrabold md:text-xl-28">
             {fetchedData.posts?.[0].fields.title}
           </h1>
           {desc && (

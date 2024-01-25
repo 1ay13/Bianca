@@ -32,4 +32,12 @@
 	::-webkit-scrollbar-thumb:hover {
 		@apply bg-opacity-80;
 	}
+
+	input:focus-visible {
+		outline: none;
+	}
+
+	textarea:focus-visible {
+		outline: none;
+	}
 }

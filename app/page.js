@@ -43,10 +43,10 @@ const Home = () => {
               />
             </div>
 
-            <p className="mb-4 font-extrabold leading-none text-xl-40 md:leading-normal md:text-xl-38">
+            <p className="mb-4 font-extrabold leading-snug md:mb-7 text-xl-28 max-md:text-center md:text-xl-40">
               BEYOND PRODUCTIONS
             </p>
-            <p className="leading-6 text-black md:leading-8 mb-7">
+            <p className="leading-6 tracking-wide text-black md:leading-8 mb-7">
               BEYOND PRODUCTIONS founded by BIANCA RAMI, director,
               cinematographer, and writer leads a premier film & branding
               production company. We focus on creating compelling narratives,
@@ -54,7 +54,7 @@ const Home = () => {
               social marketing. Our passion for storytelling is emboldened by
               heart found across Hollywood & beyond!
             </p>
-            <p className="leading-6 text-black md:leading-8 mb-7">
+            <p className="leading-6 tracking-wide text-black md:leading-8 mb-7">
               Our expertise extends to representing brands, crafting
               negotiations, social marketing and fostering new opportunities for
               brand growth & net-worth.

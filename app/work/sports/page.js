@@ -12,7 +12,7 @@ const page = () => {
       <h1 className="font-extrabold leading-snug mb-7 md:mb-10 text-xl-28 max-md:text-center md:text-xl-40">
         Representation & Branding
       </h1>
-      <div>
+      <div className="-mx-2 md:-mx-5">
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
             loader={imageLoader}
@@ -27,12 +27,12 @@ const page = () => {
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             LARA DALLMAN-WEISS
           </h5>
-          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+          <p className="mt-2 px-2.5 text-center leading-normal text-sm md:text-base">
             American Sailor & Olympian
-          </h5>
+          </p>
         </div>
       </div>
-      <h1 className="font-bold leading-snug mb-7 md:mb-10 text-xl-20 max-md:text-center md:text-xl-30  border-black border-b-2 text-gray-700 pb-2">
+      <h1 className="pb-2 font-bold leading-snug text-gray-700 border-b-2 border-black mb-7 md:mb-10 text-xl-20 max-md:text-center md:text-xl-30">
         Previous Clients
       </h1>
       <div className="flex flex-wrap -mx-2 md:-mx-5">
@@ -50,9 +50,9 @@ const page = () => {
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             TINA KNOWLES
           </h5>
-          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+          <p className="mt-2 px-2.5 text-center leading-normal text-sm md:text-base">
             American Business Pioneer & Mother to Beyoncé & Solange
-          </h5>
+          </p>
         </div>
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
@@ -68,9 +68,27 @@ const page = () => {
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             DAVID ORTIZ
           </h5>
-          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+          <p className="mt-2 px-2.5 text-center leading-normal text-sm md:text-base">
             Dominican Baseball Hall of Famer & Sports Analyst
+          </p>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/victoria.jpg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Victoria Brito
           </h5>
+          <p className="mt-2 px-2.5 text-center leading-normal text-sm md:text-base">
+            Model. Dancer. Creative
+          </p>
         </div>
 
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
@@ -118,24 +136,6 @@ const page = () => {
             Isabela Grutman
           </h5>
         </div>
-        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
-          <Image
-            loader={imageLoader}
-            unoptimized={true}
-            priority={false}
-            src="/assets/victoria.jpg"
-            width={855}
-            height={641}
-            alt="Clerksy"
-            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
-          />
-          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-            Victoria Brito
-          </h5>
-          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-            Model. Dancer. Creative
-          </h5>
-        </div>
 
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
@@ -165,6 +165,21 @@ const page = () => {
           />
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             Farruko
+          </h5>
+        </div>
+        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+          <Image
+            loader={imageLoader}
+            unoptimized={true}
+            priority={false}
+            src="/assets/yash.jpeg"
+            width={855}
+            height={641}
+            alt="Clerksy"
+            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
+          />
+          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
+            Yash Mistry
           </h5>
         </div>
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
@@ -331,21 +346,6 @@ const page = () => {
           />
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             Grown
-          </h5>
-        </div>
-        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
-          <Image
-            loader={imageLoader}
-            unoptimized={true}
-            priority={false}
-            src="/assets/yash.jpeg"
-            width={855}
-            height={641}
-            alt="Clerksy"
-            className="object-cover aspect-square rounded-tr-[20px] rounded-bl-[20px] object-center"
-          />
-          <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
-            Yash Mistry
           </h5>
         </div>
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
