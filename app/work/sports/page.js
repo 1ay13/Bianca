@@ -318,7 +318,7 @@ const page = () => {
             Pentagon Studios
           </h5>
         </div>
-        <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
+        {/* <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
             loader={imageLoader}
             unoptimized={true}
@@ -362,7 +362,7 @@ const page = () => {
           <h5 className="mt-3 px-2.5 text-center font-semibold leading-normal text-sm md:text-base">
             Ray Allen
           </h5>
-        </div>
+        </div> */}
 
         <div className="w-[calc(50%-16px)] mx-2 md:mx-5 md:w-[calc(33.3%-40px)] mb-5 md:mb-10 lg:mb-12">
           <Image
